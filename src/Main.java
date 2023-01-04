@@ -6,7 +6,7 @@
             String Temp = First1;
             First1 = Last1;
             Last1 = Temp;
-            // comment added to check Git sync  HELLO
+            // comment added to check Git sync  HELLO  worls
             System.out.println("name in reverse is " + First1 + " " + Last1);
         }
         static void replaceLeadLetterWithNext(String First1,String Last1){
