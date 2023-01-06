@@ -6,7 +6,7 @@
             String Temp = First1;
             First1 = Last1;
             Last1 = Temp;
-            // comment added to check Git sync  HELLO  worls
+            // comment added to check Git sync  HELLO  worlsh
             System.out.println("name in reverse is " + First1 + " " + Last1);
         }
         static void replaceLeadLetterWithNext(String First1,String Last1){
@@ -30,7 +30,8 @@
         Names person_name;
         person_name = new Names(First, Last);
         System.out.println("first letter is A" + " is " + person_name.CheckFirstisA());
-        System.out.println("name is " + First + " " + Last);
+        System.out.println("name is " + person_name.fname+" "+person_name.lname);
+        System.out.println("Citizenship status is"+ " "+person_name.citizen);
         switchName(First, Last);
         replaceLeadLetterWithNext(First,Last);
     }
